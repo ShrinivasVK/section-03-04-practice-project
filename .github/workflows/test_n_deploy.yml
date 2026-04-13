@@ -2,7 +2,7 @@ name: Test and Deploy
 on: [push, workflow_dispatch]
 jobs:
   test:
-    runs-on: ubutu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6
