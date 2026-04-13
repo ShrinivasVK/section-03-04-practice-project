@@ -1,0 +1,10 @@
+name: Issues
+on:
+  issues:
+    types: opened
+jobs:
+  test:
+    runs-on: ubutu-latest
+    steps:
+      - name: Display Issue Information
+        run: "echo Issue: ${{ github.event.issue }}"
