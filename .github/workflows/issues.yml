@@ -3,7 +3,7 @@ on:
   issues:
     types: opened
 jobs:
-  test:
+  issue_information:
     runs-on: ubuntu-latest
     steps:
       - name: Display Issue Information

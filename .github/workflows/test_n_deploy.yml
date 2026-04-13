@@ -6,8 +6,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v6
-      - name: Setup node
-        uses: actions/setup-node@v6
       - name: Install Dependencies and Run Tests
         run: npm ci
       - name: Lint
